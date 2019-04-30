@@ -33,7 +33,7 @@ app.post('/', upload.single('file'), (req, res, next) => {
     body: fs.createReadStream(req.file.path),
     auth: {
       user: 'apikey',
-      pass: '<YOUR API KEY>',
+      pass: 'LKFoU1AZuOnxox8H3QCziPXuitLy8z7-BHgjBlro4Mr4',
     },
   }, (error, response, body) => {
     if (error) {
